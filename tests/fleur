@@ -1,0 +1,6 @@
+petal:=(carre+*triangle+**carre+***triangle)
+;
+fleur:=(petal+*petal+petal+*petal)
+;
+%
+Vfleur

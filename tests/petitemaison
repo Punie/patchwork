@@ -1,0 +1,6 @@
+maison:=(**triangle+***triangle+carre+*carre)
+;
+fleches:=(**maison+***maison+maison+*maison)
+;
+%
+Bfleches

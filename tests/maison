@@ -1,0 +1,12 @@
+toitg:=(*triangle+*triangle+*triangle+***carre)
+;
+toitd:=(triangle+triangle+**carre+triangle)
+;
+basg:=(carre+***carre+carre+***triangle)
+;
+basd:=(**carre+*carre+**triangle+*carre)
+;
+maison:=toitd+toitg+basg+basd
+;
+%
+V(maison)

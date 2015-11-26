@@ -1,0 +1,34 @@
+########################################################################
+
+Quelques infos pour la configuration de votre repertoire de projet :
+
+1) Copiez la totalite du repertoire
+   /Public/243_Public/tp/patchwork/projet dans votre arborescence, a
+   l'endroit voulu pour votre projet. Par ex. :
+   cp -r /Public/243_Public/tp/patchwork/projet .
+
+2) Placez vous dans votre repertoire de projet puis compilez la machine
+   caractères ainsi que la librairie graphique :
+   cd projet
+   make graphsimple
+   make machine-caracteres
+
+3) Copiez dans votre répertoire de projet les paquetages Ada
+   precedemment realises lors des TP :
+   Analyseur_Syntaxique, Construction_Ast, Parcours_Ast,
+   Construction_Motif et Affichage_Motif, ainsi que votre programme
+   principal.
+
+4) Completez dans le Makefile la ligne 'CIBLE =' avec le nom choisi pour
+   l'executable du programme principal.
+
+5) Compilez l'ensemble :
+   make clean     # la 1ere fois au moins
+   make 
+
+Consultez regulierement le contenu du repertoire d'origine
+(/Public/243_Public/tp/patchwork/projet).
+Observez en particulier les dates de modification des fichiers, des
+mises a jour interessantes peuvent y avoir ete mises en place.
+
+########################################################################

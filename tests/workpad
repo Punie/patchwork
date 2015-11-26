@@ -1,0 +1,32 @@
+-----------------------------------------------------------
+-- Jeu de test											 --
+--														 --
+-- H. Saracino & G. Frumy : 12 Mai 2009					 --
+--														 --
+-- Langage de motifs representes sous forme de quadtree  --
+-----------------------------------------------------------
+
+petal:=(carre+*triangle+**carre+***triangle)
+;
+fleur:=V(petal+*petal+petal+*petal)
+;
+maison:=(**triangle+***triangle+carre+*carre)
+;
+fleches:=B(**maison+***maison+maison+*maison)
+;
+toitg:=(*triangle+*triangle+*triangle+***carre)
+;
+toitd:=(triangle+triangle+**carre+triangle)
+;
+basg:=(carre+***carre+carre+***triangle)
+;
+basd:=(**carre+*carre+**triangle+*carre)
+;
+maison:=V(toitd+toitg+basg+basd)
+;
+losange:=R(**triangle+***triangle+triangle+*triangle)
+;
+primitifs:=(R*rond+Brond+Vplein+vide)
+;
+%
+(primitifs+J(carre+carre+triangle+triangle)+(fleur+fleches+maison+losange)+(Rcarre+Btriangle+*Vcarre+*Jtriangle))
