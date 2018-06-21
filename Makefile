@@ -15,7 +15,7 @@ GNATMAKE = gnatmake
 GDB = gdb
 
 GNATLDOPTS = -L$(LIBDIR) -lmachcar -lgraphsimple \
-             -L/usr/X11R6/lib -lX11 -lrt
+             -L/usr/X11R6/lib -lX11
 
 %: %.o
 
